@@ -1,0 +1,114 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\Program Files\Common Files\System\ado\msado21.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\msstdfmt.dll=
+D:\WINDOWS\system32\msbind.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+d:\documents and settings\sadeq\desktop\testproject\db\db.mdb=
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\Tdb.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+d:\documents and settings\sadeq\desktop\testproject\db\db.mdb=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\QusetInfo.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\msbind.dll=Yes
+D:\WINDOWS\system32\msstdfmt.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\db.mdb=No
+D:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\Tdb.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\QusetInfo.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+D:\WINDOWS\system32\msbind.dll=$(WinSysPath)
+D:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+D:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\db.mdb=$(AppPath)
+D:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\Tdb.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\QusetInfo.exe=No
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\db.mdb=No
+D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\Tdb.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=TestQuest
+
+[Package|Standard Setup Package 1|TEST ]
+Icon1=QusetInfo.exe
+Title1=TEST
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\Package
+ProjectFolder=D:\Documents and Settings\Sadeq\Desktop\TestProject\DB
+ServerSideCab=
+File1=D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\Package\setup.exe
+File2=D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\Package\Setup.Lst
+File3=D:\Documents and Settings\Sadeq\Desktop\TestProject\DB\Package\QusetInfo.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=TestQuest
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|TestQuest]
+Icon1=QusetInfo.exe
+Title1=Quest
+StartIn1=$(AppPath)
+Key1=Icon1
